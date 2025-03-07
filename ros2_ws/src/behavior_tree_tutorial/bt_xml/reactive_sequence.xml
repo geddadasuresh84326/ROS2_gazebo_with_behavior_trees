@@ -1,0 +1,8 @@
+<root BTCPP_format="4">
+    <BehaviorTree ID="MainTree">
+        <ReactiveSequence name="root_sequence">
+            <MoveBaseAction goal="0.2;0.3;1.0" />
+            <!-- Additional actions or conditions can be added here -->
+        </ReactiveSequence>
+    </BehaviorTree>
+</root>

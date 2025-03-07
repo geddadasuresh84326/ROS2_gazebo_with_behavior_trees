@@ -1,0 +1,8 @@
+<root BTCPP_format="4">
+            <BehaviorTree ID="MainTree">
+                <Sequence>
+                    <CalculateGoal goal="{goal_position}" />
+                    <PrintTarget target="{goal_position}" />
+                </Sequence>
+            </BehaviorTree>
+        </root>
