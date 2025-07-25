@@ -23,6 +23,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+# we need add the folders which we want to use in this file
 install(
   DIRECTORY urdf launch rviz
   DESTINATION share/${PROJECT_NAME}/
